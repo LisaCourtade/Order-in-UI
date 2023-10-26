@@ -1,0 +1,53 @@
+.menu-category {
+    margin: auto;
+    width: 1650px;
+}
+
+.meals-collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal-card {
+    display: flex;
+    margin: 0.25rem;
+    width: 350px;
+    box-shadow: darkgray 0px 0px 0.125rem;
+    border-radius: 5px;
+}
+
+.meal-card:hover {
+    cursor: pointer;
+}
+
+.meal-card > img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+    margin-right: 0.5rem;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.25rem;
+}
+
+.card-desc {
+    margin: 0.2rem 0;
+    line-height: 1rem;
+}
+
+.card-price {
+    margin: 0.5rem 0 0.3rem 0;
+    color: #1c7a7a;
+    font-weight: 600;
+}
+
+.plus-icon {
+    color: #1c7a7a;
+    justify-self: flex-end;
+    align-self: flex-end;
+}

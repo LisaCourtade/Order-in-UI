@@ -1,0 +1,40 @@
+.restaurants-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 1450px;
+}
+
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0.55rem 0;
+    width: 350px;
+    box-shadow: darkgray 0px 0px 0.125rem;
+    border-radius: 5px;
+}
+
+.restaurant-card:hover {
+    cursor: pointer;
+}
+
+.card-text-box {
+    padding: 1rem;
+}
+
+.card-img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.restaurant-card .card-title {
+    font-size: 1.2rem;
+}
+
+.card-desc {
+    color: #3e3e3e;
+}

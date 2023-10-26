@@ -1,0 +1,37 @@
+.banner-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 15%;
+}
+
+.restaurant-banner {
+    position: relative;
+}
+
+.restaurant-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.612) 0%, rgba(0, 0, 0, 0.412) 100%)
+}
+
+.banner-text {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.restaurant-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #f0f8ff; 
+}
+
+.restaurant-desc {
+    color: #f0f8ff; 
+}
+
